@@ -9,3 +9,4 @@ You can do some AR projects.
 
 <a href="https://www.youtube.com/watch?v=rnODCkjPtq4
 " target="_blank"><img src="http://img.youtube.com/vi/rnODCkjPtq4/0.jpg"
+alt="slam-ar" width="240" height="180" border="10" /></a>
