@@ -5,7 +5,7 @@ Unzip orbslamios.zip and put the dependency folder and opencv2.framework in the 
 
 The source code is from [ORB-SLAM Monocular](https://github.com/raulmur/ORB_SLAM) . That's a great work.
 
-You can do some AR projects.
+You can do some AR projects. There are more interesting AR videos on my YouTube.
 
 <a href="https://www.youtube.com/watch?v=rnODCkjPtq4
 " target="_blank"><img src="http://img.youtube.com/vi/rnODCkjPtq4/0.jpg"
