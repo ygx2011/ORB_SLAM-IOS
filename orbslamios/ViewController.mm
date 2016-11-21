@@ -131,6 +131,21 @@ bool loadVocab = true;
         case 2 :
         {
             cout<<"INITIALIZING"<<endl;
+            
+            vector<cv::KeyPoint> vIniKeys;
+            vector<int> vMatches;
+            vector<cv::KeyPoint> vCurrentKeys;
+            vCurrentKeys = _Tracker->mCurrentFrame.mvKeysUn;
+            vIniKeys = _Tracker->mInitialFrame.mvKeysUn;
+            vMatches = _Tracker->mvIniMatches;
+            for(unsigned int i=0; i<vMatches.size(); i++)
+            {
+                if(vMatches[i]>=0)
+                {
+                    cv::line(image,vIniKeys[i].pt,vCurrentKeys[vMatches[i]].pt,cv::Scalar(255,0,0,255));
+                }
+            }
+            
             break;
         }
         case 3 :

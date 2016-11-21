@@ -7,6 +7,7 @@ I removed pod and metal view. Use opencv to capture the camera and draw the map 
 
 You need to download some dependency and opencv2.framework from
 https://pan.baidu.com/s/1eS9ha74
+
 Unzip orbslamios.zip and put the dependency folder and opencv2.framework in the orbslamios folder.
 
 You can do some AR projects. There are more interesting AR videos on my YouTube.
